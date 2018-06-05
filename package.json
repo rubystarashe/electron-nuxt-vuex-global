@@ -13,10 +13,10 @@
   "author": "Rubystar Ashe <rubystarashe@gmail.com> (https://github.io/rubystarashe)",
   "license": "ISC",
   "dependencies": {
-    "electron": "^2.0.2",
     "nuxt": "^1.4.0"
   },
   "devDependencies": {
+    "electron": "^2.0.2",
     "cross-env": "^5.1.6",
     "electron-packager": "^12.1.0",
     "electron-winstaller": "^2.6.4",
