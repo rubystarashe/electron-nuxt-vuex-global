@@ -2,4 +2,4 @@
 <div>
   Hello World!
 </div>
-</tempalte>
+</template>
