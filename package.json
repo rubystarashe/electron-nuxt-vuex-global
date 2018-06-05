@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=DEV electron .",
     "start": "electron .",
-    "build": "nuxt build && electron-builder"
+    "build": "nuxt build",
+    "pack": "npm run build && electron-packager ./ --overwrite"
   },
   "author": "Rubystar Ashe <rubystarashe@gmail.com> (https://github.io/rubystarashe)",
   "license": "ISC",
@@ -19,8 +20,8 @@
   },
   "devDependencies": {
     "cross-env": "^5.1.6",
-    "electron-builder": "^20.15.1",
-    "electron-devtools-installer": "^2.2.4",
+    "electron-packager": "^12.1.0",
+    "electron-winstaller": "^2.6.4",
     "vue-devtools": "^4.1.4"
   }
 }
