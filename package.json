@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=DEV electron .",
+    "start": "electron .",
     "build": "nuxt build && electron-builder"
   },
   "author": "Rubystar Ashe <rubystarashe@gmail.com> (https://github.io/rubystarashe)",
