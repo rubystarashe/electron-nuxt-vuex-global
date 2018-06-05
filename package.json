@@ -14,14 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^2.0.2",
-    "node-sass": "^4.9.0",
-    "nuxt": "^1.4.0",
-    "sass-loader": "^7.0.2"
+    "nuxt": "^1.4.0"
   },
   "devDependencies": {
     "cross-env": "^5.1.6",
     "electron-packager": "^12.1.0",
     "electron-winstaller": "^2.6.4",
-    "vue-devtools": "^4.1.4"
+    "vue-devtools": "^4.1.4",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.2"
   }
 }
