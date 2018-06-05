@@ -4,6 +4,8 @@
 npm install
 npm run dev
 
-nuxt build
+npm run build
 npm run start
+
+npm run pack
 ```
