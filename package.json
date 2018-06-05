@@ -1,0 +1,25 @@
+{
+  "name": "electron-nuxt",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=DEV electron .",
+    "build": "nuxt build && electron-builder"
+  },
+  "author": "Rubystar Ashe <rubystarashe@gmail.com> (https://github.io/rubystarashe)",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.2",
+    "node-sass": "^4.9.0",
+    "nuxt": "^1.4.0",
+    "sass-loader": "^7.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.6",
+    "electron-builder": "^20.15.1",
+    "electron-devtools-installer": "^2.2.4",
+    "vue-devtools": "^4.1.4"
+  }
+}
