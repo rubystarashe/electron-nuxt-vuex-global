@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=DEV electron .",
     "start": "electron .",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild",
     "build": "nuxt build",
     "pack": "npm run build && electron-packager ./ --overwrite"
   },
@@ -16,12 +17,13 @@
     "nuxt": "^1.4.0"
   },
   "devDependencies": {
-    "electron": "^2.0.2",
     "cross-env": "^5.1.6",
+    "electron": "^2.0.2",
     "electron-packager": "^12.1.0",
+    "electron-rebuild": "^1.7.3",
     "electron-winstaller": "^2.6.4",
-    "vue-devtools": "^4.1.4",
     "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.2"
+    "sass-loader": "^7.0.2",
+    "vue-devtools": "^4.1.4"
   }
 }
