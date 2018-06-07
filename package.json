@@ -1,15 +1,17 @@
 {
   "name": "electron-nuxt",
   "version": "1.0.0",
-  "description": "",
+  "description": "electron with nuxt.js example",
   "private": true,
+  "productName": "ElectronNuxt",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=DEV electron .",
     "start": "electron .",
     "electron-rebuild": "./node_modules/.bin/electron-rebuild",
     "build": "nuxt build",
-    "pack": "npm run build && electron-packager ./ --overwrite"
+    "pack": "npm run build && electron-packager ./ --overwrite",
+    "windows-installer": "node build"
   },
   "author": "Rubystar Ashe <rubystarashe@gmail.com> (https://github.io/rubystarashe)",
   "license": "ISC",
