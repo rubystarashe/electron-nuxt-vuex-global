@@ -1,4 +1,8 @@
 # electron-nuxt
+
+## Global Vuex with Nuxt!!
+![Alt Text](https://github.com/rubystarashe/electron-nuxt/blob/master/globalVuex.gif)
+
 ## Installation
 ```
 npm install
