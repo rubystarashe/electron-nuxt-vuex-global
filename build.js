@@ -13,11 +13,11 @@ function getInstallerConfig () {
   const rootPath = path.join('./')
 
   return Promise.resolve({
-    appDirectory: path.join(rootPath, 'electron-nuxt-win32-x64/'),
+    appDirectory: path.join(rootPath, 'ElectronNuxt-win32-x64/'),
     noMsi: true,
     outputDirectory: path.join(rootPath, 'windows-installer'),
     loadingGif: path.join(rootPath, 'assets/installing.gif'),
-    exe: 'NuxtExample.exe',
+    exe: 'ElectronNuxt.exe',
     setupExe: 'example_installer.exe'
   })
 }

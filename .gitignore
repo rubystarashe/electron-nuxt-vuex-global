@@ -12,3 +12,7 @@ dist
 
 #VS Code
 .vscode
+
+# Electron build
+windows-installer
+ElectronNuxt-win32-x64
