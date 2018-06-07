@@ -1,8 +1,8 @@
 <template>
 <div>
-  Hello World!
+  Second Page!
   {{$store.state.messages}}
-  <button @click="RECEIVE_MESSAGE('first')">first</button>
+  <button @click="RECEIVE_MESSAGE('second')">second</button>
 </div>
 </template>
 
