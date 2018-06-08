@@ -1,7 +1,7 @@
 {
-  "name": "electron-nuxt",
+  "name": "electron-nuxt-vuex-global",
   "version": "1.0.0",
-  "description": "electron with nuxt.js example",
+  "description": "electron with nuxt.js + vuex global example",
   "private": true,
   "productName": "ElectronNuxt",
   "main": "index.js",
