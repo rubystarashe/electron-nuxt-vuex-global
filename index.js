@@ -94,11 +94,9 @@ app.on('window-all-closed', () => app.quit())
 
 const Vue = require('vue')
 const Vuex = require('vuex')
-
 Vue.use(Vuex)
 
 const clients = []
-
 const store = new Vuex.Store()
 
 electron.ipcMain.on('vuex-connect', (event) => {
